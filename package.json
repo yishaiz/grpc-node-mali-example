@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "start": "npm start-server",
+    "start-servre": "node server/index.js",
+    "start-client": "node client/index.js"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.2.8",
     "@grpc/proto-loader": "^0.5.6",
+    "grpc": "^1.24.5",
     "mali": "^0.40.0"
   },
   "keywords": [],
